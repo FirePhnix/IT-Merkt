@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: #333;
+    background-color: #202020;
     height: 100%;
     /* text-align: center; */
 }
@@ -63,4 +63,26 @@ h2{
 
 .Linkedin {
     padding-right: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5%;
+}
+
+li {
+    padding-bottom: 3%;
+}
+
+li a {
+    color: #707070;
+    text-decoration: none;
+}
+
+li a.active {
+    color: #d0d0d0;
+}
+
+li a:hover:not(.active) {
+    color: #a0a0a0;
 }
