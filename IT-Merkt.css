@@ -8,6 +8,10 @@
     src: url('fonts/Nunito-VariableFont_wght.ttf'); 
 }
 
+*{
+    font-family: 'Nunito';
+}
+
 body {
     background-color: #333;
     height: 100%;
@@ -17,24 +21,46 @@ body {
 header {
     background-size: 100%;
     padding: 5%;
-
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    column-gap: 10px;
+    row-gap: -80px;
 }
 
+.logo {
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.header-contact {
+    grid-column: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    text-align: right;
+    color: #8b8d8e;
+}
 
 .title {
+    grid-column: 2;
+    grid-row: 1;
     font-family: 'Panton';
     color: #7fa3d5;
     font-size: 500%;
-    position: relative;
     text-align: left;
-    padding-left: 30%;
+    padding-left: 20%;
 }
 
 h2{
-    font-family: 'Nunito';
+    grid-column: 2;
+    grid-row: 2;
     color: white;
-    padding-left: 30%;
+    padding-left: 20%;
     font-style: italic;
     font-weight: lighter;
+    margin-top: -2rem;
+}
 
+.Linkedin {
+    padding-right: 30px;
 }
