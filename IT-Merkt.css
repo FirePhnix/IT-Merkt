@@ -67,6 +67,7 @@ h2{
     display: grid;
     grid-template-columns: 30% 45% 25%;
     column-gap: 10px;
+    row-gap: 20px;
     padding: 5%;
     color: #d0d0d0;
 }
@@ -77,6 +78,7 @@ aside {
     grid-row-end: 6;
     background-image: url(pics/Linien_Startseite_Oben.png) 50%;
 }
+
 
 nav {
     grid-column: 1;
@@ -97,7 +99,7 @@ nav {
 
 }
 
-li {
+.li1 {
     padding-bottom: 45px;
 }
 
@@ -167,3 +169,29 @@ button:hover {
 /* .linien-top-Start {
     margin-top: -100%;
 } */
+
+footer {
+    background-size: 100%;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    column-gap: 10px;
+    row-gap: -80px;
+    color: #d0d0d0;
+    margin-top: 100px;
+}
+
+.footer-left {
+    grid-column: 1;
+}
+
+.list-footer {
+    grid-column: 2;
+    list-style: none;
+    columns: 2;
+    margin-left: -40px;
+}
+
+.li-footer {
+    padding-bottom: 10px;
+}
