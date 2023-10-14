@@ -65,7 +65,7 @@ h2{
 
 .hauptteil{
     display: grid;
-    grid-template-columns: 30% 50% 20%;
+    grid-template-columns: 30% 45% 25%;
     column-gap: 10px;
     padding: 5%;
     color: #d0d0d0;
@@ -75,22 +75,30 @@ aside {
     grid-column: 3;
     grid-row-start: 1;
     grid-row-end: 6;
+    background-image: url(pics/Linien_Startseite_Oben.png) 50%;
 }
 
 nav {
     grid-column: 1;
     grid-row-start: 1;
     grid-row-end: 6;
-
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: -4%;
+  }
 
 .ul-nav {
     list-style-type: none;
     padding: 6%;
+
 }
 
 li {
-    padding-bottom: 12%;
+    padding-bottom: 45px;
 }
 
 li a {
@@ -147,7 +155,7 @@ button:hover {
 .leistungen {
     columns: 2; 
     list-style: none;
-    margin-left: -5%;
+    margin-left: -40px;
 }
 
 .leistungen li::before {
@@ -155,3 +163,7 @@ button:hover {
     color: #7fa3d5;
     padding-right: 10px;
 }
+
+/* .linien-top-Start {
+    margin-top: -100%;
+} */

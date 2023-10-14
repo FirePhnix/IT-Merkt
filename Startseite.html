@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="IT-Merkt.css">
+    <script src="Main.js" defer></script>
     <title>Startseite</title>
 </head>
 <body>
@@ -21,7 +22,7 @@
         </p>
     </header>
     <div class="hauptteil">
-        <nav>
+        <nav id="navbar">
             <ul class="ul-nav">
                 <li><a class="active" href="Startseite.html">Startseite</a></li>
                 <li><a href="Unternehmen.html">Unternehmen</a></li>
@@ -30,7 +31,7 @@
             </ul>
         </nav>
         <aside>
-            <img src="pics/Linien_Startseite_Oben.png" alt="">
+            <!-- <img class="linien-top-Start" width="140%" src="pics/Linien_Startseite_Oben.png" alt=""> -->
         </aside>
         <article class="article1">
             <p>Herzlich Willkommen bei IT-Merkt - Ihre digitale Zukunft beginnt hier.
@@ -49,7 +50,7 @@
                 <button onclick="window.location.href = 'Unternehmen.html'">Mehr über mich</button>
         </article>
         <h1 class="article2"> Das biete <br> ich ihnen.</h1>
-        <article class="artical3">
+        <article class="article3">
             <ul class="leistungen">
                 <li>Netzwerkinfrastruktur-Management</li>
                 <li>Cybersicherheit</li>
@@ -63,6 +64,13 @@
                 <li>Systemintegration</li>
             </ul>
             <button onclick="window.location.href = 'Services.html'">Service & Leistungen</button>
+        </article>
+        <h1 class="article4">Sie haben <br>Fragen?</h1>
+        <article class="article5"><p>Das ist großartig – ich bin hier, um Ihnen die Antworten zu liefern. Egal, ob es sich um 
+            technische Herausforderungen, Beratung zu IT-Strategien oder Unterstützung bei Ihrer 
+            digitalen Reise handelt, zögern Sie nicht, mir Ihre Fragen mitzuteilen. Ich stehe Ihnen zur 
+            Verfügung, um sicherzustellen, dass Sie bestmöglich unterstützt werden. <br><br></p>
+            <button onclick="window.location.href = 'Kontakt.html'">Zum Kontaktformular</button>
         </article>
     </div>
 </body>
