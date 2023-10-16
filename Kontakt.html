@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="IT-Merkt.css">
+    <script src="Main.js" defer></script>
     <title>Kontakt</title>
 </head>
+
 <body>
     <header style="background-image: url(pics/header-Kontakt.png);">
         <img height="60" src="pics/Logo Blau IT MERKT weiße Schrift.png" alt="Logo IT-Merkt">
@@ -15,19 +18,65 @@
         <h2>Jederzeit für Sie da.</h2>
         <p class="header-contact">
             fabio@it-merkt.com <br><br>
-            01525 6814243 <br><br>    
-        <img class="Linkedin" height="20" src="pics/linkedin-Grau.png" alt="Linkedin Logo">
-        <img height="20" src="pics/whatsapp-Grau.png" alt="Whatsapp Logo">
+            01525 6814243 <br><br>
+            <img class="Linkedin" height="20" src="pics/linkedin-Grau.png" alt="Linkedin Logo">
+            <img height="20" src="pics/whatsapp-Grau.png" alt="Whatsapp Logo">
         </p>
     </header>
-    <nav id="nav">
-        <ul class="ul-nav">
-            <li><a href="Startseite.html">Startseite</a></li>
-            <li><a href="Unternehmen.html">Unternehmen</a></li>
-            <li><a href="Services.html">Services & Leistungen</a></li>
-            <li><a class="active" href="Kontakt.html">Kontakt</a></li>
+    <div class="hauptteil">
+        <nav id="nav">
+            <ul class="ul-nav">
+                <li class="li1"><a href="Startseite.html">Startseite</a></li>
+                <li class="li1"><a href="Unternehmen.html">Unternehmen</a></li>
+                <li class="li1"><a href="Services.html">Services & Leistungen</a></li>
+                <li class="li1"><a class="active" href="Kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <aside>
+            <!-- <img width="115%" height="70%" src="pics/Linie-Startseite1.png" alt="" style="margin-top: -400px;">
+        <img width="115%" height="50%" src="pics/Linie-Startseite2.png" alt="" style="margin-top: 50vh;"> -->
+        </aside>
+        <form action="" class="article1">
+            <input type="text" id="firma" name="firma" placeholder="Firma"><br>
+            <input type="text" id="vorname" name="vorname" placeholder="Vorname*" required><br>
+            <input type="text" id="nachname" name="nachname" placeholder="Nachname*" required><br>
+            <input type="email" id="email" name="email" placeholder="E-Mail*" required><br>
+            <input type="tel" id="tel" name="tel" placeholder="Telefon"><br>
+            <!-- <input type="text" id="nachricht" name="nachricht" placeholder="Ihre Nachricht*" required><br><br> -->
+            <textarea name="nachricht" id="nachricht" rows="12" placeholder="Ihre Nachricht*" required></textarea><br><br>
+            <input type="checkbox" id="checkbox" name="checkbox" class="checkbox" value="accepted" required>
+            <label for="checkbox">Mit dem Absenden dieses Formulars erkläreb Sie sich damit einverstanden,
+                dass Ihre persönlichen Daten gemäß der 
+                <a href="Datenschutz.html">Datenschutzrichtlinie</a> verarbeitet werden.*
+            </label><br><br>
+            <input type="submit" class="submit" name="submit" value="Abschicken">
+        </form>
+
+    </div>
+    <footer>
+        <p class="footer-left"></p>
+        <ul class="list-footer">
+            <li class="li-footer"><b>IT-Merkt</b></li>
+            <li class="li-footer">Matthias-Koch-Straße 24</li>
+            <li class="li-footer">72469 Meßstetten</li>
+            <li class="li1"></li>
+            <li class="li-footer">01525 6814243</li>
+            <li class="li-footer">fabio@it-merkt.com</li>
+            <li class="li-footer"> <img height="20" src="pics/linkedin-Grau.png" alt="Linkedin Logo"></li>
+            <li class="li-footer"><a href="Unternehmen.html">Unternehmen</a></li>
+            <li class="li-footer"><a href="Services.html">Service & Leistungen</a></li>
+            <li class="li-footer"><a href="Kontakt.html">Kontakt</a></li>
+            <li class="li1"></li>
+            <li class="li-footer"><a href="Impressum.html">Impressum</a></li>
+            <li class="li-footer"><a href="Datenschutz.html">Datenschutz</a></li>
+            <li class="li-footer"><img height="20" src="pics/whatsapp-Grau.png" alt="Whatsapp Logo"></li>
+
         </ul>
-    </nav>
-    
+
+        <div class="footer-right">
+
+        </div>
+    </footer>
 </body>
+
 </html>

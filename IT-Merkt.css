@@ -22,7 +22,7 @@ header {
     background-size: 100%;
     padding: 5%;
     display: grid;
-    grid-template-columns: 30% 50% 20%;
+    grid-template-columns: 25% 50% 25%;
     column-gap: 10px;
     row-gap: -80px;
 }
@@ -140,7 +140,31 @@ li a:hover:not(.active) {
     grid-row: 5;
 }
 
-button {
+textarea,
+input {
+    background-color: #202020;
+    margin-top: 40px;
+    width: 90%;
+    color: #d0d0d0;
+    border-color: #707070;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.checkbox {
+    width: fit-content;
+}
+
+.submit {
+    background-color: #7fa3d5;
+    color: white;
+    padding: 15px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+ button {
     background-color: #7fa3d5;
     color: white;
     padding: 15px;
@@ -201,6 +225,7 @@ footer {
 .li-footer {
     padding-bottom: 10px;
 }
+
 
 /* .footer-logo {
     grid-column: 2;
