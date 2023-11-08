@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-size: 100%;
+    background-size: cover;
     padding: 5%;
     display: grid;
     grid-template-columns: 25% 50% 25%;
@@ -157,24 +157,45 @@ input {
 }
 
 .submit {
-    background-color: #7fa3d5;
+    /* background-color: #7fa3d5;
     color: white;
     padding: 15px;
     width: 30%;
-    border-radius: 5px;
+    border-radius: 5%; */
+    background-color: #7fa3d5;
+    width: 30%;                                                          
+    border-radius: 7px;                                                
+    border: 2px solid #7fa3d5;                                     
+    color: white;
+    padding: 15px;                                                 
+    transition: all 0.4s var(--transition);   
+}
+
+:root{
+    --transition: cubic-bezier(0, 0, 0.05, 1);
 }
 
  button {
-    background-color: #7fa3d5;
+    /* background-color: #7fa3d5;
     color: white;
     padding: 15px;
     width: 30%;
-    border-radius: 5%;
+    border-radius: 5%; */
+    background-color: #7fa3d5;
+    width: 30%;                                                          
+    border-radius: 7px;                                                
+    border: 2px solid #7fa3d5;                                     
+    color: white;
+    padding: 15px;                                                 
+    transition: all 0.4s var(--transition);                                 
 }
 
+.submit:hover,
 button:hover {
-    cursor: pointer;
-    opacity: 80%;
+    /* cursor: pointer;
+    opacity: 80%; */
+    background-color: transparent;                                           
+    color: #7fa3d5;
 }
 
 .leistungen {
